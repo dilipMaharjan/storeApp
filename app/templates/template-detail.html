@@ -1,0 +1,26 @@
+<div class="container">
+    <a style="text-decoration: none;" href="#/templates" class="glyphicon glyphicon-chevron-left">Go Back</a>
+    </br></br>
+    <div class="col-md-4">
+        <img class="img-responsive" src="http://lorempixel.com/600/600/transport/{{mainImage}}" style="width: 100%;">
+    </div>
+    <div class="col-md-8">
+        <h3 class="lead">{{product.name}}</h3>
+        <p>{{product.description}}</p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="putyourpaypalemailaddress@yhaoo.com">
+            <input type="hidden" name="item_name" value="{{product.name}}">
+            <input type="hidden" name="item_number" value="{{product.id}}">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="amount" value="{{product.price}}">
+            <input type="hidden" name="no_shipping" value="1">
+            <input type="hidden" name="rm" value="2">
+            <input type="hidden" name="return" value="http://localhost:8000">
+            <input type="hidden" name="cancel_return" value="http://localhost:8000">
+            <input type="image" name="submit"
+                   src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+                   alt="PayPal - The safer, easier way to pay online">
+        </form>
+    </div>
+</div>

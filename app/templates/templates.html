@@ -1,0 +1,8 @@
+<div class="row text-center">
+    <div class="col-md-4 thumbnail" ng-repeat="product in products">
+        <h3 class="text-info">{{product.name}}</h3>
+        <img class="img-thumbnail" ng-src="http://lorempixel.com/600/600/transport/{{product.images[0].name}}">
+        <h4 class="text-right">{{product.price}}</h4>
+        <a class="btn btn-primary btn-block img-responsive" href="#!/templates/{{product.id}}">Details</a>
+    </div>
+</div>

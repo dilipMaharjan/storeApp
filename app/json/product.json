@@ -1,0 +1,94 @@
+[
+    {
+        "id": "1",
+        "name": "Product name",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.",
+        "type": "any type",
+        "price": "9.99",
+        "images": [
+            {
+                "name": "1"
+            },
+            {
+                "name": "2"
+            },
+            {
+                "name": "3"
+            },
+            {
+                "name": "4"
+            },
+            {
+                "name": "5"
+            },
+            {
+                "name": "6"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Product name1",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.",
+        "type": "any type",
+        "price": "11.99",
+         "images": [
+            {
+                "name": "2"
+            }
+        ],
+        "sold_out": true
+    },
+    {
+        "id": "3",
+        "name": "Product name2",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.",
+        "type": "any type",
+        "price": "12.99",
+         "images": [
+            {
+                "name": "3"
+            }
+        ],
+        "sold_out": false
+    },
+    {
+        "id": "4",
+        "name": "Product name3",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.",
+        "type": "any type",
+        "price": "14.99",
+         "images": [
+            {
+                "name": "4"
+            }
+        ],
+        "sold_out": true
+    },
+    {
+        "id": "5",
+        "name": "Product name4",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.",
+        "type": "any type",
+        "price": "9.99",
+         "images": [
+            {
+                "name": "5"
+            }
+        ],
+        "sold_out": false
+    },
+    {
+        "id": "6",
+        "name": "Product name5",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.",
+        "type": "any type",
+        "price": "9.99",
+         "images": [
+            {
+                "name": "6"
+            }
+        ],
+        "sold_out": true
+    }
+]
